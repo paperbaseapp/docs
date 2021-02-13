@@ -1,14 +1,44 @@
+# Dependencies
+node_modules
+__pycache__
+venv
+
+# Build files
+build
+MANIFEST
+manifest.json
+site
+
+# Distribution files
+dist
+mkdocs_material.egg-info
+
+# Caches and logs
+*.cpuprofile
+*.log
+*.tsbuildinfo
+.eslintcache
+
+# -----------------------------------------------------------------------------
+# General
+# -----------------------------------------------------------------------------
+
+# Never ignore .gitkeep files
+!**/.gitkeep
+
+# Husky hooks
+.husky/.gitignore
+.husky/_
+
+# macOS internals
+.DS_Store
+
+# Temporary files
+tmp
+
+# IDEs
+.vscode
+
+*/*/.idea
+*/.idea
 .idea
-/node_modules
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-.env
-.env.backup
-.phpunit.result.cache
-docker-compose.override.yml
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
