@@ -129,10 +129,11 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
   - Getting started:
-      - Installation: getting-started/installation.md
-      - How to use it: getting-started/how-to-use-it.md
+      - Introduction: getting-started/introduction.md
+      - Docker compose: getting-started/docker-compose.md
+  - User Guide:
+      - Introduction: user-guide/introduction.md
 
 # Google Analytics
 #google_analytics:

@@ -1,4 +1,4 @@
-# Setup with docker
+# Setup with docker compose
 
 ## Requirements:
 - docker
@@ -6,7 +6,7 @@
 
 ## Setup `docker-compose.yml`
 ```sh
-wget -O docker-compose.yml https://raw.githubusercontent.com/paperbaseapp/paperbase/main/docker-compose.prod.yml
+wget -O docker-compose.md https://raw.githubusercontent.com/paperbaseapp/paperbase/main/docker-compose.prod.yml
 ```
 ## Setup `.env`
 ```sh
