@@ -1,6 +1,6 @@
 # Setup with docker compose
 
-## Requirements:
+## Requirements
 - docker
 - docker-compose
 

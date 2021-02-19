@@ -1,4 +1,4 @@
-# Paperpase
+# Introduction
 
 Get the best out ouf your digital paperstack
 
