@@ -84,7 +84,7 @@ extra:
     - icon: fontawesome/brands/docker
       link: https://hub.docker.com/r/paperbaseapp/paperbase
     - icon: fontawesome/brands/twitter
-        link: https://twitter.com/paperbaseapp
+      link: https://twitter.com/paperbaseapp
   generator: false
 
 # Extensions
