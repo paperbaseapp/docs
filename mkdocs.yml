@@ -57,7 +57,7 @@ theme:
     - header.autohide
   palette:
     scheme: default
-    primary: indigo
+    primary: red
     accent: indigo
   font:
     text: Roboto
