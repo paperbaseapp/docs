@@ -1,7 +1,15 @@
-# Installation
+# Setup with docker
 
-1. program it
-2. install it
-3. use it
+## Requirements:
+- docker
+- docker-compose
 
-:joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::pensive::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::heart:
+## Setup `docker-compose.yml`
+```sh
+wget -O docker-compose.yml https://raw.githubusercontent.com/paperbaseapp/paperbase/main/docker-compose.prod.yml
+```
+## Setup `.env`
+```sh
+wget -O .env https://github.com/paperbaseapp/paperbase/blob/main/.env.example
+```
+Adjust the values to fit your needs.

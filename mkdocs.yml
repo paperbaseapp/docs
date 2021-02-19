@@ -19,18 +19,18 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Paperprism docs
-site_url: http://localhost
-site_author: https://github.com/paperprism
+site_name: Paperbase docs
+site_url: https://docs.paperbase.app
+site_author: https://github.com/paperbaseapp
 site_description: >-
-  TODO: insert docs description here
+  Blazing fast document organization and search
 # Repository
-repo_name: paperprism/paperprism
-repo_url: https://github.com/paperprism/paperprism
-edit_uri: ""
+repo_name: paperbaseapp/paperbase
+repo_url: https://github.com/paperbaseapp/paperbase
+edit_uri: https://github.com/paperbaseapp/docs
 
 # Copyright
-copyright: Copyright &copy; 2021 Photoprism
+copyright: Copyright &copy; 2021 Paperbase
 
 # Configuration
 theme:
@@ -51,6 +51,10 @@ theme:
     # - navigation.instant
     - navigation.sections
     - navigation.tabs
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
   palette:
     scheme: default
     primary: indigo
@@ -61,10 +65,14 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+    repo: fontawesome/brands/github
 
 # Plugins
 plugins:
-  - search
+  - search:
+      lang:
+        - en
+      prebuild_index: true
   - minify:
       minify_html: true
 
@@ -72,10 +80,11 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/paperprism/paperprism
+      link: https://github.com/paperbaseapp/paperbase
     - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/paperprism/paperprism
-
+      link: https://hub.docker.com/r/paperbaseapp/paperbase
+  generator: false
+  
 # Extensions
 markdown_extensions:
   - admonition
