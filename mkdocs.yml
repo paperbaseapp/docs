@@ -57,14 +57,14 @@ theme:
     - header.autohide
   palette:
     scheme: default
-    primary: red
+    primary: indigo
     accent: indigo
   font:
     text: Roboto
     code: Roboto Mono
   favicon: assets/favicon.png
   icon:
-    logo: fontawesome/regular/flushed
+    logo: logo
     repo: fontawesome/brands/github
 
 # Plugins
@@ -130,7 +130,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Getting started:
-      - Introduction: getting-started/introduction.md
+      - Introduction: index.md
       - Docker compose: getting-started/docker-compose.md
   - User Guide:
       - Introduction: user-guide/introduction.md
