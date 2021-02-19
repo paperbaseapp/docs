@@ -27,7 +27,7 @@ site_description: >-
 # Repository
 repo_name: paperbaseapp/paperbase
 repo_url: https://github.com/paperbaseapp/paperbase
-edit_uri: https://github.com/paperbaseapp/docs
+edit_uri: https://github.com/paperbaseapp/docs/tree/main/docs
 
 # Copyright
 copyright: Copyright &copy; 2021 Paperbase
