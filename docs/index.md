@@ -33,7 +33,7 @@ Download the production `docker-compose.yml` and `.env` files to an empty direct
 on your server.
 
 ```sh
-wget -O .env https://github.com/paperbaseapp/paperbase/blob/main/.env.prod.example
+wget -O .env https://raw.githubusercontent.com/paperbaseapp/paperbase/main/.env.prod.example
 wget -O docker-compose.yml https://raw.githubusercontent.com/paperbaseapp/paperbase/main/docker-compose.prod.yml
 ```
 
