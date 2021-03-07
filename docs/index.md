@@ -23,7 +23,7 @@ Docker is the preferred and easiest way to set up your own Paperbase instance.
 !!! info
     The Docker Compose stack comes with the [Træfik](https://doc.traefik.io/traefik/) reverse proxy
     included and set up by default. It automatically generates certificates for HTTPS through
-    Let's Encrypt. If you don't want HTTPS, or already have a running Teæfik instance, you need
+    Let's Encrypt. If you don't want HTTPS, or already have a running Træfik instance, you need
     to edit `docker-compose.yml` accordingly.
 
 
