@@ -30,7 +30,10 @@ repo_url: https://github.com/paperbaseapp/paperbase
 edit_uri: https://github.com/paperbaseapp/docs/tree/main/docs
 
 # Copyright
-copyright: Copyright &copy; 2021 Paperbase
+copyright: Copyright © 2021 Paperbase authors
+
+extra_css:
+- stylesheets/style.css
 
 # Configuration
 theme:
@@ -48,9 +51,9 @@ theme:
   # Default values, taken from mkdocs_theme.yml
   language: en
   features:
-    # - navigation.instant
     - navigation.sections
-    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
     - search.suggest
     - search.highlight
     - search.share
@@ -129,11 +132,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Getting started:
-      - Introduction: index.md
-      - Docker compose: getting-started/docker-compose.md
-  - User Guide:
-      - Introduction: user-guide/introduction.md
+  - Overview: index.md
 
 # Google Analytics
 #google_analytics:
